@@ -1,36 +1,22 @@
 <!doctype html>
 <html>
-	<head>
-	<meta charset="utf-8">
-	<title>Video potcabs interactivo - Dayan Lara</title>
-	<link rel = "stylesheet" href ="Scripts/Estilo.css">
-	</head>
+<head>
+    <meta charset="utf-8">
+    <title>Espacios Sonoros - Santiago de Cali</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="main()">
+    <center><h1>Espacios Sonoros - Santiago de Cali</h1></center>
 
-		<body onload="main()">
-<br>			
-<center><h1>VIDEO INTERACTIVO</h1></center>			
+    <div class="video" id="myVideoDiv">
+        <img src="imagenes/mapa_cali.png" alt="Mapa de Santiago de Cali" id="myVideo">
+        <button class="btn1" id="btn1"  onclick="location.href= 'Index1.html' "></button>
+        <button class="btn2" id="btn2" onclick="location.href= 'Index5.html' "></button>
+        <button class="btn3" id="btn3"onclick="location.href= 'Index4.html' "></button>
+        <button class="btn4" id="btn4" onclick="location.href= 'Index3.html' "></button>
+		<button class="btn5" id="btn5" onclick="location.href= 'Index2.html' "></button>
+    </div>
 
-
-		<div class ="video" id="myVideoDiv">
-		
-		<video id="myVideo" width="auto" height="auto">
-	    <source src ="Videos/video interactivo.mp4" type="video/mp4"/>
-		</video>
-		<button class="btn1" id="btn1" ></button>	
-		<button class="btn2" id="btn2" ></button>	
-		<button class="btn3" id="btn3" ></button>
-		<button class="btn4" id="btn4" ></button>
-			
-		</div>
-<br>
-<center>
-<button id="btnPlay"><img src="imagenes/imgbtnplay.png" height="40px" width= "40px"></button>
-<button id="btnStop"><img src="imagenes/imgbtnpause.png" height="40px" width= "40px"></button>
-<button class="btnBack" id="btnBack" ><img src="imagenes/imgbtnback.png" height="40px" width= "40px"></button>
-			
-<br><p>Desarrollado por: Dayan David Lara</p>
-			
-</center>
-<script src="Scripts/Main.js"></script>
-		</body>
+<script src="main.js"></script>
+</body>
 </html>

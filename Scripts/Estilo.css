@@ -9,32 +9,32 @@ p {
 h1{color: ghostwhite;}
 
 
-video{
-	max-height: 100%;
-	max-width: 100%;
+.video img {
+  position: relative;
+  display: block;
+  width: 100%;
 }
 
-.video{
+.video img{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	width: 65%;
+	width: 80%;
 	margin: auto;
 	box-shadow: 0px, 3px, 0px, #373c3c; 
 }
 
-#btn1{
-	display: none;
-	position: absolute;
-	left:-17.6%;
-	top:39.5%;
-	height: 21%;
-	width:26%;
-	opacity:0%;
-	background-color: aquamarine;
-	border-color: antiquewhite;
-	margin-left: 36%;
+#btn1 {
+    display: none;
+    position: absolute;
+    left: 10vw;
+    top: 20vw;
+    height: 5vw;
+    width: 5vw;
+    opacity: 100%;
+    background-color: aquamarine;
+    border-color: antiquewhite;
 }
 
 #btn2{
@@ -44,7 +44,7 @@ video{
 	top:39.5%;
 	height: 21%;
 	width:26%;
-	opacity: 0%;
+	opacity: 100%;
 	background-color: aquamarine;
 	border-color: antiquewhite;
 	margin-left: 36%;
@@ -57,7 +57,7 @@ video{
 	top:65.5%;
 	height: 21%;
 	width:26%;
-	opacity:0%;
+	opacity:100%;
 	background-color: aquamarine;
 	border-color: antiquewhite;
 	margin-left: 36%;
@@ -69,7 +69,7 @@ video{
 	top:65.5%;
 	height: 21%;
 	width:26%;
-	opacity:0%;
+	opacity:100%;
 	background-color: aquamarine;
 	border-color: antiquewhite;
 	margin-left: 36%;

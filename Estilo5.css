@@ -1,0 +1,89 @@
+/* Estilo del cuerpo de la página */
+body {
+    background-color: grey;
+}
+
+/* Estilo del encabezado de la página */
+h1 {
+    color: ghostwhite;
+}
+
+/* Estilo de la imagen y los botones */
+.video {
+    position: relative;
+    width: 65%;
+    margin: auto;
+    box-shadow: 0px, 3px, 0px, #373c3c; 
+    justify-content: center;
+}
+
+#myVideo {
+    max-width: 100%;
+    height: auto;
+    outline: 2px solid black;
+  border-radius: 10px;
+}
+
+.botones-contenedor {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-text {
+	font-size: 1vw;
+}
+
+/* Estilo para los botones */
+.btn1, .btn2, .btn3, .btn4, .btn5 {
+    opacity: 100%;
+    background-color: aquamarine;
+    border-color: antiquewhite;
+    width: 30%;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+    outline: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Posiciones de los botones en pantallas grandes */
+#btn1 {
+    margin-right: 10%;
+}
+
+#btn2 {
+    margin-left: 10%;
+}
+
+/* Ajuste de las posiciones de los botones en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .btn1, .btn2, .btn3, .btn4, .btn5 {
+        width: 10%;
+        font-size: 1.2rem;
+    }
+    
+    #btn1 {
+        margin-right: 5%;
+    }
+    #btn2 {
+        margin-left: 5%;
+    }
+}
+
+/* Ajuste de las posiciones de los botones en pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+    .btn1, .btn2, .btn3, .btn4, .btn5 {
+        height: 16%;
+        width: 18%;
+        font-size: 1rem;
+    }
+    
+    #btn1 {
+        margin-right: 5%;
+    }
+    #btn2 {
+        margin-left: 5%;
+    }
+}

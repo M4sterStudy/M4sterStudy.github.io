@@ -1,0 +1,26 @@
+imagenes: 
+
+Río pance: https://commons.wikimedia.org/wiki/File:Domingo_en_pance.jpg
+
+El gato del río: https://commons.wikimedia.org/w/index.php?search=el+Gato+del+rio+&title=Special:MediaSearch&go=Go&type=image&haslicense=unrestricted&fileres=%3E1000
+
+Bulevar del río: https://commons.wikimedia.org/w/index.php?search=bulevar+del+rio&title=Special:MediaSearch&go=Go&type=image&fileres=%3E1000
+
+Cristo Rey: https://commons.wikimedia.org/w/index.php?search=cristo+rey+cali&title=Special:MediaSearch&go=Go&type=image&fileres=%3E1000
+
+Otra imagen de Cristo Rey: https://www.pexels.com/photo/jesus-christ-statue-cali-colombia-11815585/ 
+
+Audio: 
+
+Río pance: https://pixabay.com/es/sound-effects/river-in-icelandic-nature-ambience-5-minutes-18951/
+
+El gato del río: https:https://www.youtube.com/watch?v=Msoe_n3SPpc
+Audio alternativo el gato del rio: https://pixabay.com/es/sound-effects/ambiente-parque-g5-17118/
+
+Bulevar del río: https://www.youtube.com/watch?v=hLe--vCLAgw
+Audio alternativo Bulevar del río: https://pixabay.com/es/sound-effects/park-ambiance-sound-1-51810/
+
+Cristo Rey: https://www.youtube.com/watch?v=jHg0lWe9zuw&ab_channel=WalkThisEarth
+Audio alternativo Cristo Rey:https://pixabay.com/es/sound-effects/pink-lakes-wind-atmos-2-19185/
+
+
